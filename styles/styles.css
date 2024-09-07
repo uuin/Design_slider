@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+*{
+    font-family: Nunito Sans;
+    box-sizing: border-box;
+  }
+  li{
+    list-style-type: none; /* Убираем маркеры */
+  }
+  ul{
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none; /* Убираем подчёркивание */
+  }
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+  }
+.header {
+    width: 100%;
+    height: 83px;
+    margin: 0 auto;
+    background: #131313;
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+.header__wrapper{
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+  
+  .header__TEXT{
+    font-size: 11px;
+    line-height: 15px;
+    color: #E3B873;
+    text-transform: uppercase;
+    margin-right: 95px;
+    margin-left: 92px
+  }
+  .header__tel{
+    font-size: 11px;
+    line-height: 15px;
+    color: #E3B873;
+    text-align: right;
+    text-decoration:underline;
+    margin-left: 67px;
+    margin-right: 45px;
+}
+
+  .header__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 0 0;
+  }
+
+  .header__item a{
+    font-size: 11px;
+    line-height: 15px;
+    color: #E3B873;
+    margin-right: 47px;
+  }
+
+  .header__item p{
+    font-size: 11px;
+    line-height: 15px;
+    color: #ffffff;
+    margin-right: 47px;
+  }
+  
+  .header__button button {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 11px;
+    align-content: center;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 161px;
+    height: 37px;
+    margin-top: 24px;
+    border: none;
+    background-color: #E3B873;
+    border-radius: 2px;
+    box-shadow: inset;
+    }
+.header__button button:nth-child(1){
+    filter: drop-shadow(0px 2px 5px #E3B873);
+}
+.maint__top{
+    margin: 0 0 0 0;
+}
+.main__top img{
+    width: 100%;
+    height: 707px;
+    filter: brightness(30%);
+    object-fit: cover;
+  }
+  .main__content{
+    margin-left: 134px;
+  }
+  .main__content h1{
+    width: 550px;
+    position: absolute;
+    top: 245px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: Yeseva One;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 53.13px;
+    font-weight: 600;
+  }
+  .main__content-h1{
+    width: 550px;
+    color: #E3B873;
+    text-transform: uppercase;
+    font-family: Yeseva One;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 53.13px;
+    font-weight: 600;
+  }
+  
+  .main__content p{
+    width: 480px;
+    position: absolute;
+    top: 375px;
+    color: #FFFFFF;
+    font-family: Nunito Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36.01px;
+  }
+  .button1{
+    width: 207px;
+    height: 51px;
+    position: absolute;
+    top: 531px;
+    font-style: italic;
+    font-size: 11px;
+    align-content: center;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    background-color: #E3B873;
+    border-radius: 2px;
+    box-shadow: inset;
+    padding: 0 0 0 0;
+  }  
+  .main__button button:nth-child(1){
+    filter: drop-shadow(0px 2px 5px #E3B873);
+}
+  .button2{
+    width: 207px;
+    height: 51px;
+    position: absolute;
+    top: 531px;
+    margin-left: 235px;    
+    font-style: italic;
+    font-size: 11px;
+    align-content: center;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFF;
+    border: 1px solid #fff;
+    border-radius: 2px; 
+    background-color: rgba(255, 255, 255, 0);
+    opacity: 70%;
+  }
+  
+  .button2::after{
+    content: 'SUBMIT YOUR APPLICATION';
+  }
+.main__category{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #131313;
+    padding-top: 50px;
+    padding-right: 135px;
+}
+.slider__text{
+    display: flex;
+    justify-content: flex-end;
+    gap: 130px;
+    color: #E3B873;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: Yeseva One;
+font-size: 14px;
+font-weight: 400;
+line-height: 19.4px;
+text-align: left;
+}
+.slider__text div:hover{
+  cursor: pointer;
+  color: #E3B873;
+  text-decoration:underline;
+  text-underline-offset: 10px;
+}
+
+.text.active{
+  cursor: pointer;
+  color: #E3B873;
+  text-decoration:underline;
+  text-underline-offset: 10px;
+}
+
+.slider__text{
+  color: grey;
+  font-family: Yeseva One;
+}
+  .main__slaid{
+    background-color: #131313;
+    height: 970px;
+  }
+  .main__slaid-top{
+    display: flex;
+    flex-direction: row;
+  }
+  .main__slaid-left{
+    width: 442px;
+    margin-right: 50px;
+    margin-left: 134px;
+  }
+  .main__slaid-left h1{
+    color: #E3B873;
+    text-transform: uppercase;
+    font-family: Yeseva One;
+font-size: 27px;
+font-weight: 400;
+line-height: 37.42px;
+letter-spacing: -0.07em;
+text-align: left;
+width: 250px;
+
+  }
+  .main__slaid-left p{
+    color: #fff;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26.73px;
+    text-align: left;
+    
+  }
+  .main__slaid-right img{
+    width: 679px;
+    height: 482px;
+  }
+  .main__slaid-right h1{
+    margin-top: 90px;
+    color: #FFF;
+    font-weight: 400;
+    font-family: Yeseva One;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+  .main__exp{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 350px;
+    font-family: Nunito Sans;
+font-size: 13px;
+font-weight: 400;
+
+}
+.main__exp p{
+    color: #fff;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    line-height: 10px;
+}
+  .main__exp h2{
+    color: #E3B873;
+    text-transform: uppercase;
+    font-family: Yeseva One;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.95px;
+    text-align: left;
+    
+  }
+
+
+
+    
+  .slider{
+    width: 679px;
+    height: 482px;
+    position: relative;
+  }
+.slide img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.slide{
+  opacity: 0;
+  inset: 0;
+}
+.slide[data-active]{
+  opacity: 1;
+  z-index: 1;
+}
+  .circle{
+    text-align:center
+  }
+  .slider__arrows{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+  color: #FFF;
+  width: 50%;
+  }
+
+.slider__arrow.left{
+  cursor: pointer;
+}
+.slider__arrow.right{
+  cursor: pointer;
+}
+
+.slider__images {
+  position: relative;
+  width: 679px;
+  height: 482px;
+}
+.slider__images .image{
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: opacity 800ms ease;
+}
+.slider__images .image.active {
+  opacity: 1;
+}
+
+.slider__arrow:hover {
+  opacity: 1;
+}
+
+.slider__arrow.left {
+  left: 0;
+}
+
+.slider__arrow.right {
+  right: 0;
+}
+
+.slider__dots {
+  display: flex;
+  justify-content: center;
+  left: 0;
+  width: 100%;
+}
+
+.slider__dots-item {
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  border-radius: 100%;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: background 0.4s ease;
+}
+
+.slider__dots-item:hover, .slider__dots-item.active {
+  background: #E3B873;
+}
+
+.text__city{
+  display: none;
+  color: white;
+}
+
+.text__city.active {
+  display: block;
+}
+
+.text__apartament{
+  display: none;
+  color: white;
+}
+
+.text__apartament.active{
+  display: block;
+}
+
+.text__time{
+  display: none;
+  color: white;
+}
+.text__time.active{
+  display: block;
+}
+
+.text__cost{
+  display: none;
+  color: white;
+}
+
+.text__cost.active{
+  display: block;
+}
